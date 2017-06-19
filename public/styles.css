@@ -1,0 +1,115 @@
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+h1 {
+      /*background-color: lightblue;*/
+}
+
+
+#header {
+    padding: 20px;
+    width: 100%;
+    padding: 0px 20px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 72px;
+    color: #fff;
+    font-family: sans-serif;
+    position: absolute;
+    top: 35%;
+  }
+
+.parallax {
+
+    height: 700px;
+
+    background-image: url("image.gif");
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.contain {
+    width: 100%;
+    margin: 0
+}
+
+
+.segment {
+  background-color: #EEE;
+  padding: 20px;
+}
+
+#intro {
+  padding-left: 10px;
+}
+
+.begin {
+    /*padding-top: 20px;*/
+
+}
+
+.left, .right {
+  display: inline-block;
+  width: 47%;
+}
+
+.left {
+  float: left;
+  padding: 30px;
+}
+
+
+.lang {
+
+
+  padding: 20px;
+  background-color: #EEE;
+  padding: 30px;
+}
+
+#row {
+  margin: 10px;
+  text-align: center;
+}
+
+
+.projects {
+  text-align: center;
+}
+
+.polaroid {
+
+  margin: 10px;
+  display: inline-block;
+
+  width: 40%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+
+.container {
+  text-align: center;
+  padding: 10px 20px;
+}
+
+#head{
+  position: absolute;
+  z-index: 1000;
+  top: 200px;
+  left: 200px;
+}
+
+
+.footer {
+  background-color: #EEE;
+  padding: 50px;
+}
