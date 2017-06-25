@@ -5,7 +5,8 @@ body, html {
 }
 
 h1 {
-      /*background-color: lightblue;*/
+  font-family: 'Lato', sans-serif;
+font-family: 'Oswald', sans-serif;
 }
 
 
@@ -51,11 +52,6 @@ h1 {
   padding-left: 10px;
 }
 
-.begin {
-    /*padding-top: 20px;*/
-
-}
-
 .left, .right {
   display: inline-block;
   width: 47%;
@@ -68,8 +64,6 @@ h1 {
 
 
 .lang {
-
-
   padding: 20px;
   background-color: #EEE;
   padding: 30px;
@@ -80,6 +74,16 @@ h1 {
   text-align: center;
 }
 
+#row_footer {
+  text-align: left;
+  padding-left: 50px;
+}
+
+.logo {
+  margin: 10px;
+  display: inline-block;
+}
+
 
 .projects {
   text-align: center;
@@ -87,7 +91,7 @@ h1 {
 
 .polaroid {
 
-  margin: 10px;
+  margin: 15px;
   display: inline-block;
 
   width: 40%;
